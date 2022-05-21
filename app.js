@@ -29,7 +29,7 @@ mongoose.connect('mongodb://localhost:27017/mestodb');
 app.use(requestLogger);
 
 app.use(cors({
-  origin: 'https://nzhyburtovich.nomoredomains.work',
+  origin: 'https://api.owe7x.nomoreparties.sbs',
   credentials: true,
 }));
 
